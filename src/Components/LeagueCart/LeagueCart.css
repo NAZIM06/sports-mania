@@ -1,0 +1,53 @@
+img.league-logo {
+    width: 100px;
+    margin: auto;
+    display: block;
+}
+.single-league-cart{
+    width: 250px;
+    margin: auto;
+    padding: 20px 10px;
+    border-radius: 7px;
+    box-shadow: 0px 2px 6px grey;
+    background: white;
+}
+.single-league-cart h4{
+    text-align: center;
+    margin-top: 20px;
+}
+.single-league-cart p{
+    text-align: center;
+    font-size: 13px;
+    margin-top: 10px;
+}
+button{
+    margin:15px auto;
+    display: block;
+    background: #3A42FF;
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 13px 23px 16px 23px;
+    border-radius: 5px;
+}
+.icon{
+    position: relative;
+    top: 6px;
+    left: 8px;
+}
+@media(max-width:860px){
+    img.league-logo {
+        width: 160px;
+    }
+    .single-league-cart{
+        width: 370px;
+        height: fit-content;
+    }
+    .single-league-cart h4{
+        margin-top: 18px;
+        font-size: 25px;
+    }
+    .single-league-cart p{
+        font-size: 19px;
+    }
+}
